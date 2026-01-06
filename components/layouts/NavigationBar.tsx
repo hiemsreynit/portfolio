@@ -10,13 +10,13 @@ export default function Navbar() {
 
   const items = [
     { name: "home", link: "/" },
-    { name: "about", link: "#about" },
+    { name: "about", link: "#about-me-sec" },
     { name: "projects", link: "#projects" },
     { name: "contact", link: "#contact" },
   ];
 
   return (
-    <header className="sticky top-5 z-50 mx-auto w-60 md:w-fit flex justify-center">
+    <header className="sticky top-5 z-50 mx-auto w-full pr-4 md:w-fit flex justify-end">
       {/* Desktop & Mobile Toggle Bar */}
       <nav className="flex items-center justify-between gap-8 bg-primary rounded-full px-6 md:px-12 py-3 shadow-md text-white">
         

@@ -58,8 +58,8 @@
 }
 
 :root {
-  --hover: #d31655;
-  --style: #5459AC;
+  --hover: #e3024d;
+  --style: #D4AF37;
   --text-primary: #1A1A1A;
   --desc-text: #4A4A4A;
   --soft-pink: #FFC4C4;
@@ -98,8 +98,8 @@
 }
 
 .dark {
-  --hover: #ff4d6d;
-  --style: #7B81D5;
+  --hover: #e3024d;
+  --style: #D4AF37;
   --desc-text: #D1D1D1;
   --text-primary: #F5F5F7;
   --soft-pink: #FFB3B3;
