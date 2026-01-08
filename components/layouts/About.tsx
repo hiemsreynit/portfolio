@@ -24,7 +24,7 @@ export default function About() {
       >
         <h2 className="text-2xl md:text-4xl font-bold text-desc text-style">
           Who is&nbsp;
-          <i className="text-primary">Hiem Sreynit?</i>
+          <i className="text-primary text-2xl md:text-4xl">Hiem Sreynit?</i>
         </h2>
         <p className="text-md text-justify text-desc-text md:text-lg leading-7">
           As a developer with a designer’s eye, I love the challenge of turning
@@ -36,7 +36,7 @@ export default function About() {
           approach every task with a problem-solving mindset and a focus on
           modern, utility-first styling.
         </p>
-        <section className="flex justify-between md:items-center items-start gap-x-2 lg:gap-x-12">
+        <section className="w-full flex justify-between md:items-center items-start gap-x-2 lg:gap-x-12">
           <dl className="flex flex-col justify-center gap-y-2">
             <dt className="text-xl md:text-3xl lg:text-4xl font-bold text-secondary">
               10+
