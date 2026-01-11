@@ -50,7 +50,7 @@ export default function Skills() {
         {skills.map((skillsItem, index) => (
           <li
             key={index}
-            className="bg-primary/20 w-full md:w-full lg:w-full rounded-lg flex flex-col items-start justify-center gap-y-8 px-4 md:px-4 lg:px-4 py-4"
+            className="bg-primary/20 w-full md:w-full lg:w-full rounded-lg flex flex-col items-start justify-center gap-y-6 px-4 md:px-4 lg:px-4 py-4"
           >
             <section className="w-full flex flex-col items-center justify-center gap-y-2">
               <figure>

@@ -70,7 +70,7 @@ export default function Project() {
       className="min-h-screen flex flex-col items-center gap-y-12"
       id="project-sec"
     >
-      <article className="flex flex-col gap-y-2">
+      <article className="flex flex-col gap-y-2 px-8">
         <h2 className="text-center text-2xl md:text-4xl text-desc-text font-bold">
           My&nbsp;
           <span className="bg-linear-to-r from-primary via-primary/70 to-style bg-clip-text text-transparent">
@@ -95,17 +95,17 @@ export default function Project() {
                   alt="hall booking image"
                   width={800}
                   height={450}
-                  className="rounded-t-xl w-full h-64"
+                  className="rounded-t-xl w-full h-auto"
                 />
               </a>
               <section className="flex justify-between items-center p-4">
                 <dl className="flex flex-col gap-y-2">
-                  <dd className="w-fit text-desc-text/90 text-justify flex justify-between items-center gap-x-2">
+                  <dd className="w-fit text-desc-text/90 text-justify flex justify-between items-center gap-x-1">
                     {item.tags.map((tag, index) =>
                       Object.values(tag).map((val, j) => (
                         <span
                           key={`${index}-${j}`}
-                          className="w-fit bg-style-1/20 border border-style-1/60 px-2 py-1 text-xs text-style-1 rounded-full"
+                          className="w-fit bg-style-1/20 border border-style-1/60 px-2 py-1 text-[10px] text-style-1 rounded-full"
                         >
                           {val}
                         </span>
