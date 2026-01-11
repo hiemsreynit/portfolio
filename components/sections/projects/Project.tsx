@@ -105,7 +105,7 @@ export default function Project() {
                       Object.values(tag).map((val, j) => (
                         <span
                           key={`${index}-${j}`}
-                          className="w-fit bg-style-1 px-2 py-1 text-xs text-white rounded-full"
+                          className="w-fit bg-style-1/20 border border-style-1/60 px-2 py-1 text-xs text-style-1 rounded-full"
                         >
                           {val}
                         </span>

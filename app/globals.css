@@ -151,6 +151,3 @@
   }
 }
 
-.mask-gradient {
-  mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
-}

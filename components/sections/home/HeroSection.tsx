@@ -45,7 +45,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-3 gap-20 p-0 md:p-0 items-center lg:gap-x-10">
+    <section className="grid grid-cols-1 lg:grid-cols-3 gap-20 p-0 md:p-0 items-center lg:gap-x-10" id = "home-sec">
       <section
         className="order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left"
         id="home"
@@ -62,7 +62,7 @@ export default function HeroSection() {
           </p>
           <div className="flex justify-center lg:justify-start items-center gap-3">
             <a href="#about-me-sec">
-              <button className="border-2 border-primary bg-transparent px-4 py-2 hover:scale-102 rounded-full text-primary">
+              <button className="border-2 border-primary bg-transparent px-3.5 py-1.5 hover:scale-102 rounded-full text-primary">
                 About me
               </button>
             </a>

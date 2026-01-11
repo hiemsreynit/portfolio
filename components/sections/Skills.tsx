@@ -41,7 +41,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="relative flex flex-col justify-center gap-y-12">
+    <section className="relative flex flex-col justify-center gap-y-12" id = "skills-sec">
       <article className="flex flex-col gap-y-2">
         <h2 className="text-center text-2xl md:text-4xl text-desc-text font-bold">My&nbsp;<span className="bg-linear-to-r from-primary via-primary/70 to-style bg-clip-text text-transparent">Skills</span></h2>
         <p className="text-center text-desc-text">A breakdown of my technical stack and proficiency in various tools and frameworks.</p>
