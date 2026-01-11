@@ -8,14 +8,14 @@ import { useActiveSection } from "../hooks/useActiveItem";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const sectionIds = ["home-sec", "about-me-sec", "project-sec", "contact-sec", "skills-sec"];
+  const sectionIds = ["home-sec", "about-me-sec", "skills-sec", "project-sec", "contact-sec"];
   const activeSectionId = useActiveSection(sectionIds);
 
   const items = [
     { name: "home", link: "#home-sec", id: "home-sec" },
     { name: "about", link: "#about-me-sec", id: "about-me-sec" },
-    { name: "projects", link: "#project-sec", id: "project-sec" },
     { name: "skills", link: "#skills-sec", id: "skills-sec" },
+    { name: "projects", link: "#project-sec", id: "project-sec" },
     { name: "contact", link: "#contact-sec", id: "contact-sec" },
   ];
 
