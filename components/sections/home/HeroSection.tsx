@@ -61,9 +61,9 @@ export default function HeroSection() {
               Developer & UX/UI Designer. I turn complex ideas into simple,
               beautiful digital solutions.
             </p>
-            <div className="flex justify-center lg:justify-start items-center gap-3">
+            <div className="relative z-10 flex justify-center lg:justify-start items-center gap-3">
               <a href="#about-me-sec">
-                <button className="border-2 border-primary bg-transparent px-3.5 py-1.5 hover:scale-102 rounded-full text-primary">
+                <button className="border-2 border-primary bg-transparent px-3.5 py-1.5 hover:scale-102 transition-transform duration-200 rounded-full text-primary">
                   About me
                 </button>
               </a>
@@ -83,8 +83,8 @@ export default function HeroSection() {
               className="object-cover"
             />
           </figure>
-          <div className="flex justify-center items-center gap-4 mt-6">
-            <a href="https://web.facebook.com/hiem.sreynit.9" target="_blank">
+          <div className="relative z-10 flex justify-center items-center gap-4 mt-6">
+            <a href="https://www.facebook.com/hiem.sreynit.9" target="_blank">
               <FaFacebook className="text-3xl text-primary hover:text-hover" />
             </a>
             <a href="https://github.com/hiemsreynit" target="_blank">
