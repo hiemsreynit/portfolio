@@ -51,7 +51,7 @@ export default function Navbar() {
 
           {/* Mobile Hamburger Button */}
           <button
-            className="md:hidden text-2xl"
+            className="md:hidden text-2xl text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FaTimes /> : <FaBars />}

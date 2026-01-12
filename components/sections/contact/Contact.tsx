@@ -12,14 +12,14 @@ export default function Contact() {
             me
           </span>
         </h2>
-        <p className="text-desc-text">
-          Got a question? Drop me a line at{" "}
+        <p className="text-desc-text text-center flex flex-col items-center justify-center">
+          Got a question? Drop me a line at
           <a
             href="mailto:hiemsreynit282@gmail.com"
             className="font-bold underline"
           >
             hiemsreynit282@gmail.com
-          </a>{" "}
+          </a>{"hiemsreynit282@gmail.com"}
           or use the form below and I&apos;ll get back to you shortly.
         </p>
       </article>
