@@ -8,7 +8,7 @@ import Skills from "@/components/sections/Skills";
 
 export default function Portfolio() {
   return (
-    <main className="mt-20 min-h-screen flex flex-col gap-30 md:gap-20 lg:gap-40">
+    <main className="mt-20 min-h-screen flex flex-col gap-30 md:gap-20 lg:gap-40 items-center">
       <section className="px-8 md:px-16 lg:px-36 flex flex-col gap-y-40">
         <HeroSection />
         <About />

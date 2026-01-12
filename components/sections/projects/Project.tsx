@@ -67,7 +67,7 @@ export default function Project() {
 
   return (
     <section
-      className="min-h-screen flex flex-col items-center gap-y-12"
+      className="flex flex-col items-center gap-y-12"
       id="project-sec"
     >
       <article className="flex flex-col gap-y-2 px-8">

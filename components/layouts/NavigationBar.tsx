@@ -72,7 +72,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.link}
-                onClick={() => setIsOpen(false)} // Close menu on click
+                onClick={() => setIsOpen(false)} 
                 className="text-lg capitalize border-b border-white/10 pb-2"
               >
                 {item.name}

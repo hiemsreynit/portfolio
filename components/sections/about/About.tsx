@@ -19,7 +19,7 @@ export default function About() {
         </figure>
       </section>
       <section
-        className="md:w-[80%] lg:w-[50%] flex justify-center items-center md:items-center lg:items-start flex-col gap-8 px-6"
+        className="md:w-[80%] lg:w-[50%] flex justify-center items-center md:items-center lg:items-start flex-col gap-8"
       >
         <h2 className="text-2xl md:text-4xl font-bold text-desc text-style">
           Who is&nbsp;
