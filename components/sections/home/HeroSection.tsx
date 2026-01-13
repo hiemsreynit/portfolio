@@ -46,7 +46,7 @@ export default function HeroSection() {
 
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-y-30 p-0 md:p-0 place-items-center lg:ml-30" id = "home-sec">
-      <section className="flex flex-col lg:flex-row gap-x-18 justify-between items-center">
+      <section className="flex flex-col lg:flex-row gap-x-18 gap-y-5 md:gap-y-5 lg:gap-y-0 justify-between items-center">
         <section
           className="order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left"
           id="home"

@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
-    <section className="" id="contact-sec">
+    <section className="md:-mt-100 lg:mt-0" id="contact-sec">
       <article className="flex flex-col gap-y-2 items-center">
         <h2 className="text-center text-2xl md:text-4xl text-desc-text font-bold">
           Contact&nbsp;
